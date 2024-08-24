@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gafata&family=Strait&display=swap');
+
+* {
+    cursor: none;
+}
+
+body {
+    font-family:'Gafata', Courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./assets/noise.png');
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    opacity: 0.2;
+    z-index: 999;
+    pointer-events: none;
+  }
+
+  #root {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }

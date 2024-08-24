@@ -1,0 +1,28 @@
+.project-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.image-box {
+    width: 100%;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.5rem;
+}
+
+.detail-box {
+    width: 100%;
+    font-size: 1.25rem;
+    letter-spacing: 0.2375rem;
+}
+
+.read-more {
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 0.19rem;
+    text-align: right;
+}

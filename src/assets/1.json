@@ -1,0 +1,14 @@
+{
+    "projectId" : 1,
+    "projectName" : "Speech Based Classification System for Autism Spectrum Disorder in Children",
+    "projectImage" : "1.jpg",
+    "codeLink" : "https://www.google.com",
+    "liveLink" : "https://www.google.com",
+    "techstack" : "python(librosa, scikit-learn, streamlit)",
+    "genre" : "healthcare",
+    "body" : [
+        "content",
+        "img/1.jpg",
+        "content"
+    ]
+}

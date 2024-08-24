@@ -1,0 +1,28 @@
+.headline {
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    letter-spacing: 0.2375rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    padding-top: 4rem;
+}
+
+.highlight1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.285rem;
+}
+
+.firstname {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.secondname {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 6.87rem;
+}

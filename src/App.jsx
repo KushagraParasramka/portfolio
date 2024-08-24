@@ -6,7 +6,7 @@ import './App.css'
 
 import Homebody from './homepage/Homebody.jsx';
 import Projectbody from './projectpage/Projectbody.jsx';
-import Aboutbody from './aboutpage/aboutbody.jsx';
+import Aboutbody from './aboutpage/Aboutbody.jsx';
 import Contactbody from './contactpage/Contactbody.jsx';
 import Displaybody from './projectdisplay/Displaybody.jsx';
 

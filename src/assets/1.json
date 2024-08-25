@@ -7,8 +7,9 @@
     "techstack" : "python(librosa, scikit-learn, streamlit)",
     "genre" : "healthcare",
     "body" : [
-        "content",
-        "img/1.jpg",
-        "content"
+        "This project uses MFCC features, which are extracted from audio recordings, to train multiple models to predict autism. The python file stores the trained models as a pkl file, which can later be used in predictor.py (CLI) or ui.py (Streamlit based UI). The Models implemented are Random Forest, SVM, Naive Bayes and Artificial Neural Network. The model that performs best is Random forest with a 90% accuracy, followed by Naive Bayes with 81% accuracy.",
+        "https://res.cloudinary.com/dcbrpddye/image/upload/v1724581894/332674087-23dab3a0-a23a-4717-b50d-27a67f4bd34b_wfyru1.png",
+        "https://res.cloudinary.com/dcbrpddye/image/upload/v1724582045/332672772-6648b6df-9e62-47e4-96c9-b08fd7f88c40_hyv46o.png",
+        "https://res.cloudinary.com/dcbrpddye/image/upload/v1724582045/332672750-d1fbd4fc-f053-42c2-89dd-e29aaf5decf8_zsw496.png"
     ]
 }

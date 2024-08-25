@@ -64,3 +64,9 @@ a {
     z-index: -1;
     pointer-events: none;
   }
+
+  @media screen and (max-width: 600px) {
+    .main-container{
+        max-width: 90vw;
+    }
+  }

@@ -33,7 +33,7 @@ function Displaybody() {
         <div className='body-container'>
             <Back />
             <div className='image-box'>
-                <img src={`../src/assets/${data.projectImage}`} style={{ width: "100%", height: "126px", objectFit: "cover" }} alt="image..." />
+                <img src={data.projectImage} style={{ width: "100%", height: "126px", objectFit: "cover" }} alt="image..." />
             </div>
             <div className="headline">{data.projectName}</div>
             <div className='tehstack'>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Projectbox({projectId, projectName, projectImage}) {
   return (
-    <div className='project-box'>
+    <div draggable className='project-box'>
         <div className='image-box'>
         <img src={projectImage} style={{ width: "100%", height: "126px", objectFit: "cover" }} alt="image..." />
         </div>

@@ -37,18 +37,18 @@ function App() {
     },[])
 
     const variants = {
-        default: {
+        text: {
             width: "32px",
             height: "32px",
             x: mousepos.x - 16,
             y: mousepos.y - 16,
             backgroundColor: "rgba(0,0,0,0.5)"
         },
-        text: {
-            height: 50,
-            width: 50,
-            x: mousepos.x - 25,
-            y: mousepos.y - 25,
+        default: {
+            height: 100,
+            width: 100,
+            x: mousepos.x - 50,
+            y: mousepos.y - 50,
             backgroundColor: "rgba(0,0,0,0.1)",
             border: "1px solid rgba(0,0,0,0.4)",
           }
